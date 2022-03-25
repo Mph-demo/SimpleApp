@@ -18,11 +18,4 @@ public class App
         return message;
     }
 
-String input = request.getParameter ("SeqNo");
-String characterPattern = "[0-9a-zA-Z]";
-If (! input. matches (characterPattern))
-{
-out.println (“Invalid Input”);
-}
-    
 }
